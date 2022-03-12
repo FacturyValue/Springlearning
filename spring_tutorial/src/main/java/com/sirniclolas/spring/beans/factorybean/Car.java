@@ -19,18 +19,18 @@ public class Car {
 
     @Override
     public String toString() {
-        return "com.sirniclolas.spring.beans.Car{" +
+        return "com.sirniclolas.spring.beans.factorybean.Car{" +
                 "brand='" + brand + '\'' +
                 ", price=" + price +
                 ", tyrePerimeter=" + tyrePerimeter +
                 '}';
     }
     public Car(){
-        System.out.println("com.sirniclolas.spring.beans.Car's Constructor .................");
+        System.out.println("com.sirniclolas.spring.beans.factorybean.Car's Constructor .................");
     }
 
     public Car(String brand, double price, double tyrePerimeter) {
-        this.brand = brand;
+        this.brand =brand;
         this.price = price;
         this.tyrePerimeter = tyrePerimeter;
     }

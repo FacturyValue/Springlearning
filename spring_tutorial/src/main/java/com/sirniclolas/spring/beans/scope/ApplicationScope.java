@@ -9,7 +9,7 @@ public class ApplicationScope {
         ApplicationContext context = new ClassPathXmlApplicationContext("beans-scope.xml");
         Car car = (Car) context.getBean("car");
         Car car2 = (Car) context.getBean("car");
-//        System.out.println(car==car2);
+        System.out.println(car== car2);
     }
 
 }

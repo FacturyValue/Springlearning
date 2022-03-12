@@ -16,13 +16,9 @@ public class Address {
         return city;
     }
 
-//    public String getStreet() {
-//        return street;
-//    }
-
     @Override
     public String toString() {
-        return "Address{" +
+        return "com.sirniclolas.spring.beans.Address{" +
                 "city='" + city + '\'' +
                 ", street='" + street + '\'' +
                 '}';
